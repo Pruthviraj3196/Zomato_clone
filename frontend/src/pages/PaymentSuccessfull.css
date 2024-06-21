@@ -1,0 +1,39 @@
+/* src/components/PaymentSuccess.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .icon {
+    color: green;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .message {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
