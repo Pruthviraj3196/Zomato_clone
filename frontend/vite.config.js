@@ -8,7 +8,7 @@ export default defineConfig({
     port: 10000,
     proxy:{
       '/api':{
-        target:'https://festa-backend.onrender.com',
+        target:'https://zomato-clone-n3s4.onrender.com',
         changeOrigin:true,
         secure:false
       },
